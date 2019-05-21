@@ -16,6 +16,7 @@ app.use(
   	keys: [keys.cookieKey]
   })
 );
+//This is just a comment to test VS code Git setup
 app.use(passport.initialize());
 app.use(passport.session());
 require('./routes/authRoutes')(app);
